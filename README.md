@@ -1,4 +1,4 @@
-                                                                   # WebMusicApp
+# WebMusicApp
 
 Music App
 
