@@ -45,10 +45,14 @@ button {
   border: none;
   font-size: 20px;
   cursor: pointer;
+  box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
 }
 
-button:hover {
-  opacity: 0.8;
+button:not([disabled]):hover {
+  -webkit-transform: translateY(-.3rem);
+  transform: translateY(-.3rem);
+  -webkit-box-shadow: 6px 10px 16px 0 rgba(0,0,0,.4);
+  box-shadow: 6px 10px 16px 0 rgba(0,0,0,.4)
 }
 
 .cancelbtn {
